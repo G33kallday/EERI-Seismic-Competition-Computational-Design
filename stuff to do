@@ -1,0 +1,25 @@
+3D modeling
+
+description:
+need to model the building. This includes nodes, members, member dimensions, member masses, connectivity, member type (beam, column, brace, wall)
+
+
+structural analysis
+Inputs: model, engineering properties, and ground motion
+Outputs: time history analysis results
+
+can be various levels of complexity. Likely going to start with each floor is a DOF model and only include lateral system. 
+will not include non-linear effects as balsa wood is fairly linear.
+may or may not include big P-delta 
+may or may not include small P-delta (likely not necessary as no member end moments)
+
+
+optimization
+  optimization algorithm
+  objective function
+  pre-analysis boundaries
+  post-analysis boundaries
+  "procedural generation"
+
+3D visualization
+
